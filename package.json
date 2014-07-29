@@ -1,0 +1,17 @@
+{
+  "name": "vpncard",
+  "version": "0.0.1",
+  "description": "Security card parser and command-line utility",
+  "main": "vpnPDFParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+  	"vpncard": "vpncard.js"
+  },
+  "author": "Robbie Ferrero",
+  "license": "MIT",
+  "dependencies": {
+    "pdf2json": "^0.6.8"
+  }
+}
