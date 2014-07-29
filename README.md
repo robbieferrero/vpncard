@@ -5,7 +5,7 @@ This is ultimately not useful for anyone except a few people. You know who you a
 ### Install
 *clone the github repository*
 ```
-git clone git://github.com/robbieferrero/vpncard
+git clone git@github.com:robbieferrero/vpncard.git
 ```
 
 *install globally*
