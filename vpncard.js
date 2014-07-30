@@ -6,7 +6,7 @@ var pdfParser = require('./vpnPDFParser.js')
 var code = process.argv.splice(3).join('');
 if (!code.match(/([a-zA-Z][\d]){3}/)) return console.error('Invalid VPN Code');
 
-pdfParser(process.argv[2], code, function(err, result) {
+pdfParser(process.argv[2], code, function(err, secrets, result) {
     if (err) return console.error(err);
     console.log(result);
 });

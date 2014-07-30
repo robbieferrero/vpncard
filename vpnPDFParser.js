@@ -29,7 +29,7 @@ module.exports = function(pdfFilePath, code, cb) {
     	var splitCode = code.match(/(.{2})(.{2})(.{2})/).splice(1);
 
         // Get result code from secret has and join to string
-	    cb(undefined, splitCode.map(function(v) {
+	    cb(undefined, secrets, splitCode.map(function(v) {
 	        var temp = v.toUpperCase().split('');
 	        return secrets[temp[0]][temp[1] - 1];
 	    }).join(''));
