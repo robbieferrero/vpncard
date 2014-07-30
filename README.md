@@ -1,4 +1,6 @@
-## VPN Security Card for VPN parser and code generator
+# VPN Security Card for VPN parser and code generator
+
+[![Build Status](https://travis-ci.org/robbieferrero/vpncard.svg?branch=master)](https://travis-ci.org/robbieferrero/vpncard)
 
 This is ultimately not useful for anyone except a few people. You know who you are.
 
