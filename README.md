@@ -27,3 +27,8 @@ To not have to type the file path each time, put it somewhere you love and add a
 ```
 alias vpncard="vpncard <PATH TO PDF>"
 ```
+
+## Tests
+```
+npm test
+```
